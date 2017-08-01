@@ -1,0 +1,47 @@
+{
+  "name": "ng-summernote",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^4.0.0-rc.2",
+    "@angular/compiler": "^4.0.0-rc.2",
+    "@angular/core": "^4.0.0-rc.2",
+    "@angular/forms": "^4.0.0-rc.2",
+    "@angular/http": "^4.0.0-rc.2",
+    "@angular/platform-browser": "^4.0.0-rc.2",
+    "@angular/platform-browser-dynamic": "^4.0.0-rc.2",
+    "jquery": "^3.1.1",
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.7.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "2.0.0-alpha",
+    "gulp-typescript": "~2.13.4",
+    "gulp-uglify": "^1.5.3",
+    "path": "^0.12.7",
+    "typescript": "^1.8.9",
+    "systemjs-builder": "^0.15.25"
+  },
+  "description": "Integration of Summernote wysiwyg editor to Angular",
+  "main": "ng-summernote.component.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungvm90/ng-summernote.git"
+  },
+  "keywords": [
+    "Wysiwyg",
+    "Summernote",
+    "Angular"
+  ],
+  "author": "Hung Vu <hungvm.ict@gmail.com> (https://github.com/hungvm90)",
+  "bugs": {
+    "url": "hhttps://github.com/hungvm90/ng-summernote/issues"
+  },
+  "homepage": "https://github.com/hungvm90/ng-summernote#readme"
+}
