@@ -16,7 +16,7 @@ import 'rxjs/add/operator/toPromise';
 declare var $: any;
 
 @Component({
-  selector: 'ng2-summernote',
+  selector: 'ng-summernote',
   providers: [
     {
         provide: NG_VALUE_ACCESSOR,
